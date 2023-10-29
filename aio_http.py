@@ -1,6 +1,7 @@
 import os
 import requests
 import time
+#yes keep going bro
 
 api_key = os.getenv('ALPHAVANTAGE_API_KEY')
 url = 'https://www.alphavantage.co/query?function=OVERVIEW&symbol={}&apikey={}'
