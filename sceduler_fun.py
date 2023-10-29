@@ -29,7 +29,12 @@ scheduler=BackgroundScheduler()
 scheduler.add_job(display,'interval',seconds=3,args=["Hello World.."]) #hours=1
 job_id=scheduler.add_job(display,'interval',seconds=5,args=["I am 5 sec.."]) #hours=1
 
-scheduler.add_job(display,'date',run_date=datetime(2023,10,27,11,19,0),args=["job 3"])
+# scheduler.add_job(display,'date',run_date=datetime(2023,10,27,11,19,0),args=["job 3"])
+
+# scheduler.add_job(display,'date',run_date="2023-10-27 11:00:00",args=["job 3"])
+
+scheduler.add_job(display,'corn',hour=17,minute=30,args=["job 3"])
+
 
 scheduler.start()
 sleep(10)
