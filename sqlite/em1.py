@@ -1,0 +1,16 @@
+
+class Employe:
+    """A sample Employe class"""
+
+    def __init__(self,first,last,pay):
+        self.first=first
+        self.last=last
+        self.pay=pay
+
+    @property
+    def email(self):
+        return '{} {}'.format(self.first,self.last)
+    
+    def __repr__(self) -> str:
+        return "Employe('{}','{}','{}')".format(self.first,self.last,self.pay)
+    
