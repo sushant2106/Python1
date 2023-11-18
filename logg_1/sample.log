@@ -1,0 +1,6 @@
+Tried to divide by zero
+Traceback (most recent call last):
+  File "c:\Users\Sushant Gupta\Desktop\pyhton\logg_1\log_sample.py", line 40, in divide
+    result = x / y
+             ~~^~~
+ZeroDivisionError: division by zero
