@@ -1,4 +1,5 @@
 
+
 def decorator_fun(orignal_function):
     def wrapper_fun(*args,**kwargs):
         print('wrapper executed this before {}'.format(orignal_function.__name__))
@@ -13,11 +14,6 @@ def display():
     print('display function ran')
 
 
-# decorated_display=decorator_fun(display)
-
-# decorated_display()
-
-
 @decorator_fun
 def display_info(name,age):
     print('display_info ran with ({},{})'.format(name,age))
@@ -26,5 +22,3 @@ def display_info(name,age):
 
 display_info('Ram',25)
 display()
-
-
