@@ -8,23 +8,23 @@ def decorator_fun(orignal_function):
 
 
 
-@decorator_fun
+#@decorator_fun
 def display():
     print('display function ran')
 
 
-# decorated_display=decorator_fun(display)
+decorated_display=decorator_fun(display)
 
-# decorated_display()
-
-
-@decorator_fun
-def display_info(name,age):
-    print('display_info ran with ({},{})'.format(name,age))
+decorated_display()
 
 
+# @decorator_fun
+# def display_info(name,age):
+#     print('display_info ran with ({},{})'.format(name,age))
 
-display_info('Ram',25)
-display()
+
+
+# display_info('Ram',25)
+# display()
 
 
