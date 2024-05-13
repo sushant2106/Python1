@@ -60,9 +60,8 @@ def format_book_info(book):
 my_library = Library()
 
 # Add some books
-my_library.add_book(Book("Harry Potter", "J.K. Rowling", "Fantasy"))
-my_library.add_book(Book("The Great Gatsby", "F. Scott Fitzgerald", "Classic"))
-my_library.add_book(Book("The Catcher in the Rye", "J.D. Salinger", "Fiction"))
+my_library.add_book(Book("Wings of Fire", "Dr APJ", "Sattelite"))
+my_library.add_book(Book("Harry potter", "J.K", "Fantasy"))
 
 search_results = my_library.search_book(author="J.K. Rowling")
 print("Search results:")
