@@ -59,11 +59,10 @@ def format_book_info(book):
 
 my_library = Library()
 
-# Add some books
 my_library.add_book(Book("Wings of Fire", "Dr APJ", "Sattelite"))
 my_library.add_book(Book("Harry potter", "J.K", "Fantasy"))
 
-search_results = my_library.search_book(author="J.K. Rowling")
+search_results = my_library.search_book(author="J.K")
 print("Search results:")
 for book in search_results:
     print(display_book_info(book))
@@ -71,12 +70,11 @@ for book in search_results:
 print("\nAll books in the library:")
 my_library.display_books()
 
-# Iterate over books using generator
 print("\nIterating over books:")
 for book in my_library.iterate_books():
     print(extract_title(book))
 
-# Apply a function to each book
+
 print("\nApplying function to each book:")
 formatted_books = my_library.apply_to_books(format_book_info)
 for book_info in formatted_books:
