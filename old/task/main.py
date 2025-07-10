@@ -31,7 +31,7 @@ class Library:
             print("Title:", book.title)
             print("Author:", book.author)
             print("Genre:", book.genre)
-            print()
+     
 
  
     def iterate_books(self):

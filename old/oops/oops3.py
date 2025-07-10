@@ -40,7 +40,7 @@ dev_1=Employe('Corey','Schafer',50000)
 
 dev_1.fullname='ram kumar'
 
-del dev_1.fullname33
+# del dev_1.fullname33
 
 
 

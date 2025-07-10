@@ -32,7 +32,7 @@ dev_2=Employe('Test','Employee',60000)
 # print(dev_1)
 
 
-# print(repr(dev_1))
+print(repr(dev_1))
 
 # print(str(dev_1))
 
