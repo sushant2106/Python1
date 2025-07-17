@@ -489,6 +489,249 @@
 # # print()
 # print("How are ")
 # print("durga"+"Software")
-a,b,c=10,20,30
-print(a,b,c) # by default space 
-print(a,b,c,sep=',')
+# a,b,c=10,20,30
+# print(a,b,c) # by default space 
+# print(a,b,c,sep=',')
+
+# #next data printed with seprate line 
+# print("Hello",end='')
+# print("student",end='')
+# print("VeryEasy",end='')
+
+# list=[10,20,30,40]
+
+# t=(10,20)
+# s={10,20,30}
+
+# print(list,sep=':')
+# print(t,end=':')
+# print(s,':')
+
+# a,b,c=10,20,30
+# print("a value is %i" %a)
+
+# print("a value is %i and b value is %i" %(a,b))
+# name='rAM'
+
+# print('name of perosn %s and list %s' %(name,list))
+
+# print(f'{name}')
+
+# print('hello {}'.format(name))
+
+# m=2.3
+
+# print("Show the float value %f" %(m))
+
+# x,y,z=[ eval(x) for x in input('Enter the no').split(':')]
+# print(x)
+# # from sys import argv
+
+# x=True
+
+# y=0
+# if y!=0:
+#     print(y)
+# else:
+#     print(not x)
+
+# for i in range(10,1,-1):
+#     print(i)
+
+# x=10
+
+# while x>=0:
+#     print(x,end=':')
+#     x-=1
+
+# name=""
+
+# if name==True:
+#     print('yes')
+# else:
+#     print('No')
+
+# a,b=[eval(x) for x in input("eNTER ONLY NO:").split(':')]
+
+# if a>0 and b>=0:
+#     print(a)
+
+# else:
+#     print(b)
+
+# for i in range(5):
+#     for j in range(i+1):
+#         print('*',end='') 
+#     print()
+
+# for i in range(1,5):
+#     print(i)
+
+# cart=[10,20,600,60,70,90,7]
+# for item in cart:
+#     if item>500:
+#         print("sorry we can't")
+#         break
+#     print("Process item is %i" %(item))
+
+# for i in cart:
+#     if i%2==0:
+#         continue
+#     else:
+#         print(i)
+
+
+# x=10
+# print(x)
+# del x
+
+# print(x)
+
+# s='Kar'
+# del s[1]
+# print(s)
+
+# x=10
+# y=20
+# z=30
+
+# del x,y
+# z=None
+# print(z)
+
+# s1=10
+# s2=10
+# s3=10
+
+# print(id(s1))
+# print(id(s2))
+
+# del s1
+# print(s2)
+
+#varibale and its object is also not required
+
+#want varibale and don't want Corresponding object then S1=None
+
+# from sys import argv
+
+# print(argv)
+
+# x=10
+# print('Enter the no %i' %(x))
+
+# s=input("Enter the string:")
+# print(s[1:len(s):2])
+# print(s[0])
+# # i=0
+
+# print(s[::])
+
+# print(s[0:len(s)])
+
+# for x in s:
+#     print("Show the character %s and %i" %(x,len(s)-i))
+#     i+=1Q
+
+
+# print(s[-(len(s)-1):-1])
+
+
+
+# print(s[-1:-len(s):-1])
+
+# print(s[1:6:-2])
+
+# lis=[12333,33]
+# print(len(lis))
+
+
+# s='abcdefg'
+
+# print(s[:0:-1])
+# print(s[0::-1])
+# print(s[-1::-1])
+
+# s=input("Enter the Name:")
+# i=len(s)-1
+# while i>=0:
+#     print(s[i],end=":")
+#     i-=1
+
+# print()
+
+# x,y,z=10,20,30
+
+# print(x,y,z,sep=',')
+
+# x="mississippi"
+
+
+# y="Durga Software Solution"
+
+# s=input("Enter Main String:")
+# subs=input("Enter the Substring to search:")
+
+
+# if subs in s:
+#     print(subs)
+
+# else:
+#     print("Not ")
+
+#== !=
+#> >= < <=
+
+
+# x="durga"
+# y='ram'
+
+# # == content comparison 
+
+# if y>=x:
+#     print("X %s" %x)
+
+# elif x==y:
+#     print("x and y %s and %s" %(x,y))
+
+# else:
+#     print("x")
+
+# s1="ram"
+
+
+# s1=input("Enter the String:")
+# s2=input("Enter the string2:")
+
+# if s1==s2:
+#     print(s1)
+
+# elif s1>s2:
+#     print(s1)
+# else:
+#     print(s2)
+
+# l1=["A","B"]
+# l2=["A","B"]
+# print(l1 is l2)
+# print(id(l1))
+# print(id(l2))
+# l3=l2
+# print(l1==l2)
+# print(l1 is l2)
+# print(l3 is l2)
+# a=10
+# b=10
+# print(a is b)
+
+city=input("Enter theCity Name:")
+list=["Hyderabad","Delhi","Mumbai"]
+
+#lstrip(),rstrip(),"strip()"
+if city.strip() in list:
+    print(city)
+
+else:
+    print("Not available")
+
+
