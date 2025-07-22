@@ -734,4 +734,7 @@ if city.strip() in list:
 else:
     print("Not available")
 
+# from list_ import f2
+
+# f2()
 

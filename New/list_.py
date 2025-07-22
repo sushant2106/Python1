@@ -207,3 +207,8 @@ wor="The quick brown fox jumps over the lazy dog".split()
 l8=[[w.upper(),len(w)]for w in wor]
 
 print(l8)
+
+
+def f2():
+    print('Hello..')
+
