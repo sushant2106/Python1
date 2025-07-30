@@ -64,7 +64,11 @@ def square_decor(func):
 @double_decor
 @square_decor
 def num():
+    # print("I am last")
     return 10
 
 print(num())
+
+
+
 
