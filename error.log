@@ -1,0 +1,6 @@
+error.log
+*.log
+
+myenv2/
+myvenv3/
+venv/
