@@ -20,7 +20,7 @@ print(s1.name)
 s1.display(10)
 #now no if instance
 s2.display(3)
-print(s1.__doc__)
+print(s1.__dict__)
 
 ###################
 s2.name='Shyam'
